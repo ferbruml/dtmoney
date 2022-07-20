@@ -53,4 +53,41 @@ export const GlobalStyle = createGlobalStyle` // var com letra em maiuscula pq s
         opacity: 0.6; // deixa o componente mais "apagadinho"
         cursor: not-allowed; // troca o ponteiro por um cursor "bloqueado"
     }
+
+.react-modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+
+    position: fixed; // scroll
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-modal-content {
+    width: 100%;
+    max-width: 576px;
+    background: var(--background);
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.25rem;
+}
+
+.react-modal-close {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+    border: 0;
+    background: transparent;
+
+    transition: filter 0.2s;
+
+    &:hover {
+        filter: brightness(0.7);
+    }    
+}
 ` // estas aspas são template-literals do JS, que permitem colocar vars e até funcs aqui dentro
