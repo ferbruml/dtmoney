@@ -4,4 +4,4 @@ An app taht simulates a personal cash flow of financial deposits and withdraws, 
 
 This app makes use ReactJS, MirageJS, ContextAPI, Axios and styled-components.
 
-This project is part of the Ignite program of [Rocketseat](www.rocketseat.com.br)
+This project is part of the ReactJS certification of [Rocketseat](www.rocketseat.com.br)
